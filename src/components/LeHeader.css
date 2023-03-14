@@ -1,0 +1,45 @@
+.LeHeader {
+     background-color: #fff;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #e0e0e0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    }
+
+    .LeHeader-nav {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     max-width: 1200px;
+     margin: 0 auto;
+    padding: 10px;
+        }
+
+    .LeHeader-list {
+          list-style: none;
+         display: flex;
+          align-items: center;
+         margin: 0;
+         padding: 0;
+            }
+
+            .LeHeader-item {
+              margin-right: 20px;
+                }
+            
+            .LeHeader-link {
+                text-decoration: none;
+                color: #333;
+                 font-weight: bold;
+                transition: color 0.2s ease-in-out;
+                    } 
+
+            
+            .LeHeader-link:hover {
+                    color: #61dafb;
+                        }
+
+            
+            .LeHeader-logo {
+             margin-right: 20px;
+                            }
